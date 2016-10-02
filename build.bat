@@ -1,0 +1,1 @@
+go build -o HnsTemp.exe main.go service.go install.go manage.go temperture.go sendmail.go
