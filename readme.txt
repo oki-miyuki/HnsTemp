@@ -1,31 +1,31 @@
 
-‚PDgolang ƒEƒBƒ“ƒhƒEƒY”Å‚ðƒCƒ“ƒXƒg[ƒ‹
+ï¼‘ï¼Žgolang ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã‚ºç‰ˆã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 
 https://golang.org/dl/
 
 
-‚QDgoenv.bat ‚ðŽÀs
+ï¼’ï¼Žgoenv.bat ã‚’å®Ÿè¡Œ
 
-@GOROOT ‚É golang ‚ðƒCƒ“ƒXƒg[ƒ‹‚µ‚½ƒfƒBƒŒƒNƒgƒŠ‚ðÝ’è
-@GOPATH ‚É ‚±‚Ì‚Å‚¡‚ê‚¤‚Æ‚è‚ðÝ’è
-@
-  goenv.bat ‚Ì set GOROOT=, set GOPATH= ‚ð‘‚«Š·‚¦‚ÄŽÀs‚µ‚Ä‚­‚¾‚³‚¢B
+ã€€GOROOT ã« golang ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ãŸãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’è¨­å®š
+ã€€GOPATH ã« ã“ã®ã§ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’è¨­å®š
+ã€€
+  goenv.bat ã® set GOROOT=, set GOPATH= ã‚’æ›¸ãæ›ãˆã¦å®Ÿè¡Œã—ã¦ãã ã•ã„ã€‚
   
-‚RDÝ’è‚ÌC³
+ï¼“ï¼Žè¨­å®šã®ä¿®æ­£
 
-@‰·“x‚ÌðŒ‚ð•ÏX‚·‚éê‡‚ÍA
-@service.go ‚Ì
+ã€€æ¸©åº¦ã®æ¡ä»¶ã‚’å¤‰æ›´ã™ã‚‹å ´åˆã¯ã€
+ã€€service.go ã®
   const (
-    // Œx‰·“x
+    // è­¦å‘Šæ¸©åº¦
     warningLimit  = 33.5
-    // ƒGƒ‰[‰·“x
+    // ã‚¨ãƒ©ãƒ¼æ¸©åº¦
     emergeLimit   = 35.0
   )
-@‚ðC³‚µ‚Ü‚·B
-@
-@ƒ[ƒ‹î•ñ‚ð•ÏX‚·‚éê‡‚Í
-@sendmail.go
-@ŠÖ” sendMail ‚Ì’è”‚ð‘‚«Š·‚¦‚Ü‚·
+ã€€ã‚’ä¿®æ­£ã—ã¾ã™ã€‚
+ã€€
+ã€€ãƒ¡ãƒ¼ãƒ«æƒ…å ±ã‚’å¤‰æ›´ã™ã‚‹å ´åˆã¯
+ã€€sendmail.go
+ã€€é–¢æ•° sendMail ã®å®šæ•°ã‚’æ›¸ãæ›ãˆã¾ã™
   func sendMail(name string, title string, description string) error {
     from     := "daemon@foo dot com"
     to       := "tweet@foo dot com"
@@ -34,25 +34,25 @@ https://golang.org/dl/
     subject  := title
     server   := "foo dot com"
     port     := "587"
-@
+ã€€
 
-‚SDbuild.bat ‚ðŽÀs
+ï¼”ï¼Žbuild.bat ã‚’å®Ÿè¡Œ
 
-  HnsTemp.exe ‚ª¶¬‚³‚ê‚Ü‚·B
+  HnsTemp.exe ãŒç”Ÿæˆã•ã‚Œã¾ã™ã€‚
   
-‚TDƒCƒ“ƒXƒg[ƒ‹
+ï¼•ï¼Žã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 
-  HnsTemp.exe ‚Æ USBMeter.DLL ‚ðƒRƒs[‚µ‚Ä
+  HnsTemp.exe ã¨ USBMeter.DLL ã‚’ã‚³ãƒ”ãƒ¼ã—ã¦
   
-  HnsTemp install ‚ðŽÀs‚µ‚Ü‚·B
-  ƒT[ƒrƒX‚Æ‚µ‚Ä“o˜^‚³‚ê‚Ü‚·B
-  HnsTempƒT[ƒrƒX‚ðŠJ‚¢‚ÄŽ©“®ŽÀs‚É•ÏX‚µ‚Ü‚·B
+  HnsTemp install ã‚’å®Ÿè¡Œã—ã¾ã™ã€‚
+  ã‚µãƒ¼ãƒ“ã‚¹ã¨ã—ã¦ç™»éŒ²ã•ã‚Œã¾ã™ã€‚
+  HnsTempã‚µãƒ¼ãƒ“ã‚¹ã‚’é–‹ã„ã¦è‡ªå‹•å®Ÿè¡Œã«å¤‰æ›´ã—ã¾ã™ã€‚
   
-  HnsTemp remove ‚ÅƒT[ƒrƒX‚©‚çíœ‚³‚ê‚Ü‚·B
+  HnsTemp remove ã§ã‚µãƒ¼ãƒ“ã‚¹ã‹ã‚‰å‰Šé™¤ã•ã‚Œã¾ã™ã€‚
   
 
 
-•â‘«F
+è£œè¶³ï¼š
 
-USBMeter.dll ‚ÍA‰º‹L‚ÌƒLƒbƒg‚Å‚·B
+USBMeter.dll ã¯ã€ä¸‹è¨˜ã®ã‚­ãƒƒãƒˆã§ã™ã€‚
 http://strawberry-linux.com/catalog/items?code=52001
