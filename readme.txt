@@ -8,8 +8,10 @@ https://golang.org/dl/
 
 　GOROOT に golang をインストールしたディレクトリを設定
 　GOPATH に このでディレクトリを設定
+　HTTP_PROXY, HTTPS_PROXY でプロキシ設定 
 　
-  goenv.bat の set GOROOT=, set GOPATH= を書き換えて実行してください。
+  goenv.bat の set GOROOT=, set GOPATH=, 
+  set HTTP_PROXY= set HTTPS_PROXY= を書き換えて実行してください。
   
 ３．設定の修正
 
